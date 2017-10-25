@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Аккаунт пользователя - мои поездки</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+							<div class="logo">
+								<img src="image/logo.png" alt="logo">
+								<p>все для комфортных поездок</p>
+							</div>	
+					</div>
+					<div class="col-lg-8">
+						<div class="banner">
+							<img src="image/banner.png" alt="banner">
+						</div>						
+					</div>
+					<div class="col-lg-2">
+						<div class="user">
+							<img class="avatar" src="image/user.png" alt="user">
+							<p class="user_name">Александр</p>
+							<p class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Мой аккаунт <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</p>
+
+							<ul class="dropdown-menu">
+									<li><a href="profile1.html">Мой профиль</a></li>
+									<li><a href="personal_data.html">Персональные данные</a></li>
+									<li><a href="main.html">Мои поездки</a></li>
+									<li><a href="messages.html">Личные сообщения</a></li>
+									<li><a href="alerts.html">Оповещения</a></li>
+									<li><a href="settings.html">Настройки аккаунта</a></li>
+									<li><a href="#">Выход</a></li>
+									
+								  </ul>
+							<div class="forma_1">
+								<ul>
+									<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>									</a></li>
+									<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>									</a></li>
+									<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="nav_menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li><a href="#">Поиск попутчиков</a></li>
+							<li><a href="#">грузоперевозки</a></li>
+							<li><a href="#">Аренда транспорта</a></li>
+							<li><a href="#">Аренда жилья</a></li>
+							<li><a href="#">о сервисе</a></li>
+							<li><a href="#">добавить объявление</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-offset-1">
+                        <p class="bread_crumbs"><a href="#">Главная</a> / <span>Аренда жилья</span></p>
+                            <h1>Аренда жилья</h1>
+                            <div class="rental_property">
+                                <div class="rental_btn add_accom_button">
+                                    <button class="active">Квартира</button>
+                                    <button>Дом</button>
+                                    <button>Хостел</button>
+                                    <button>Отель</button>
+                                </div>
+
+                                <div class="property">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <div class="number_rooms">
+                                               <label for="1"><input type="radio" name="number_rooms" id="1" checked>1-комн.</label>
+                                                <label for="2"><input type="radio" name="number_rooms" id="2">2-комн.</label>
+                                                <label for="3"><input type="radio" name="number_rooms" id="3">3-комн.</label>
+                                                <label for="4"><input type="radio" name="number_rooms" id="4">4-комн. и больше</label> 
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="foto_rooms">
+                                                <label for="foto"><input type="checkbox" name="foto" id="foto" checked>Только с фото</label>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="data_rooms">
+                                            <div class="col-md-5">
+                                                <input type="text" placeholder="Город">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <input type="text" placeholder="Дата въезад"> - 
+                                            <input type="text" placeholder="Дата выезда">
+                                        </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    <div class="row">
+                                        <div class="price_rooms">
+                                            <div class="col-md-5">
+                                            
+                                            Цена за сутки:
+                                            <input type="text" placeholder="От"> - 
+                                            <input type="text" placeholder="До">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <input type="text" placeholder="Общая площадь, м2">
+                                            <input type="text" placeholder="Кол-во спальных мест">
+                                        </div>
+                                        </div>
+                                        <button class="btn_rooms">Найти квартиру</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <h3>Популярные квартиры</h3>
+                            <div class="new_bus">
+                                <div class="bus active">
+                                    <div class="img">
+                                        <img src="image/room1.png" alt=""> 
+                                        <p>15 фото</p>
+                                    </div>
+                                    <div class="text_bus">
+                                        <h4>Хмельницкий, р-н. Югозапад, Молодежная улица</h4>
+                                        <p class="territory">1-комн. квартира</p>
+                                        <p class="price">450 ₴ / сутки</p>
+                                        
+                                        <p class="text">Спальня и кухня-гостиная, капитальный ремонт в бежевых тонах, квартира светлая, уютная. В ванной -душевая кабина, в спальне -двуспальная кровать, в гостиной -раскладной диван. Вся бытовая техника. Лоджия из спальни застеклена...</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div class="bus">
+                                        <div class="img">
+                                            <img src="image/room2.png" alt=""> 
+                                            <p>8 фото</p>
+                                        </div>
+                                        <div class="text_bus">
+                                            <h4>Киев, р-н. Шевченковский, ст.м. Площадь Независимости, Костельн</h4>
+                                            <p class="territory">1-комн. квартира</p>
+                                            <p class="price">500 ₴ / сутки </p>
+                                            
+                                            <p class="text">Квартира расположена в довоенном, кирпичном доме на 3/4, площадь 80кв.м, до потолка-3.8м., две распашные спальные комнаты (в одной спал.-балкон, во второй-веранда), гостиная и кухня-студио, ванная комната с окном - 10кв.м.(джакузи на двоих,душкабина и др.),три...</p>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+
+                                    <div class="bus">
+                                            <div class="img">
+                                                <img src="image/room3.png" alt=""> 
+                                                <p>15 фото</p>
+                                            </div>
+                                            <div class="text_bus">
+                                                <h4>Одесса, р-н. Приморский, Среднефонтанская улица, 19 </h4>
+                                                <p class="territory">1-комн. квартира</p>
+                                                <p class="price">380 ₴ / сутки </p>
+                                                
+                                                <p class="text">Спальня и кухня-гостиная, капитальный ремонт в бежевых тонах, квартира светлая, уютная. В ванной -душевая кабина, в спальне -двуспальная кровать, в гостиной -раскладной диван. Вся бытовая техника. Лоджия из спальни застеклена.</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+
+                                        <a href="">Смотреть все</a>
+                            </div>
+                        
+					</div>
+					<div class="col-md-3">
+                            <div class="side_bar_apartments">
+                                    <p>Новые квартиры</p>
+                                    <div class="travel">
+                                        <div class="ap">
+                                            <img src="image/room4.png" alt="">
+                                            <p class="bus_title">Киев</p>
+                                            <h2 class="bus_pas">2-комн. квартира</h2>
+                                            <p class="price">450 ₴ / сутки</p>
+                                        </div>
+                                        <div class="ap">
+                                                <img src="image/room5.png" alt="">
+                                                <p class="bus_title">Хмельницкий</p>
+                                                <h2 class="bus_pas">3-комн. квартира</h2>
+                                                <p class="price">650 ₴ / сутки</p>
+                                            </div>
+                                            <div class="ap">
+                                                    <img src="image/room6.png" alt="">
+                                                    <p class="bus_title">Черновцы</p>
+                                                    <h2 class="bus_pas">1-комн. квартира</h2>
+                                                    <p class="price">300 ₴ / сутки</p>
+                                            </div>
+                                            <a href="">Смотреть все</a>
+                                            <div class="popular_routes">
+                                                <p>Популярные маршруты</p>
+                                                <div>
+                                                    <h2>Киев - Одесса</h2>
+                                                    <p>84 предложения</p>
+                                                    <p class="price">от 100 &#8372;</p>
+                                                </div>
+                                                <div>
+                                                    <h2>Львов - Хмельницкий</h2>
+                                                    <p>56 предложений</p>
+                                                    <p class="price">от 90 &#8372;</p>
+                                                </div>
+                                                    <div>
+                                                        <h2>Чернигов - Киев</h2>
+                                                        <p>43 предложения</p>
+                                                        <p class="price">от 60 &#8372;</p>
+                                                    </div>
+                                                    <a href="">Смотреть все</a>	
+                                            </div>
+                                            <div id="banner2">
+                                                    <img src="image/Rectangle 10.png" alt="">
+                                                </div>
+        
+                                    </div>
+        
+                                    
+        
+                                    
+                                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+			<ul>
+				<li><a href="#">Поиск попутчиков</a></li>
+				<li><a href="#">грузоперевозки</a></li>
+				<li><a href="#">Аренда транспорта</a></li>
+				<li><a href="#">Аренда жилья</a></li>
+				<li><a href="#">о сервисе</a></li>
+				<li><a href="#">добавить объявление</a></li>
+			</ul>
+			
+			</div>
+			<p>©2016 Ururu - все для комфортной поездки. Все права защищены.</p>
+		</footer>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+nav{
+	height: 50px;
+}
+.admin_menu{
+	width: 100%;
+}
+.admin_menu li{
+	display: inline-block;
+	width: 13%;
+	margin-top: 10px;
+}
+.info textarea{
+	width: 100%;
+	resize: none;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+}
+.banner div{
+	overflow: hidden;
+	margin: 15px 0;
+}
+.banner input, .banner p{
+	float: left;
+	margin: 30px 0;
+}
+.banner p{
+	margin-top: 35px;
+}
+.banner img{
+	float: right;
+}
+.info button{
+	width: 190px;
+	height: 45px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.info input{
+	width: 400px;
+	
+	height: 40px;
+	padding: 5px 10px;
+}
+.traveler, .driver, .transport, .accommodation, .trucking, .user{
+	border: 1px solid #000000;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.traveler button, .driver button, .transport button, .accommodation button, .trucking button, .user button{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 300px;
+	height: 40px
+}
+.traveler div, .driver div, .transport div, .accommodation div, .trucking div, .user div{
+	float: left;
+	padding: 10px 20px;
+	width: 80%;
+}

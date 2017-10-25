@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Аккаунт пользователя - мои поездки</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2">
+							<div class="logo">
+								<img src="image/logo.png" alt="logo">
+								<p>все для комфортных поездок</p>
+							</div>	
+					</div>
+					<div class="col-lg-8">
+						<div class="banner">
+							<img src="image/banner.png" alt="banner">
+						</div>						
+					</div>
+					<div class="col-lg-2">
+						<div class="user">
+							<img class="avatar" src="image/user.png" alt="user">
+							<p class="user_name">Александр</p>
+							<p class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Мой аккаунт <i class="fa fa-angle-down" aria-hidden="true"></i>
+							</p>
+
+							<ul class="dropdown-menu">
+									<li><a href="profile1.html">Мой профиль</a></li>
+									<li><a href="personal_data.html">Персональные данные</a></li>
+									<li><a href="main.html">Мои поездки</a></li>
+									<li><a href="messages.html">Личные сообщения</a></li>
+									<li><a href="alerts.html">Оповещения</a></li>
+									<li><a href="settings.html">Настройки аккаунта</a></li>
+									<li><a href="#">Выход</a></li>
+									
+								  </ul>
+							<div class="forma_1">
+								<ul>
+									<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>									</a></li>
+									<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i>									</a></li>
+									<li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+									</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="nav_menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li><a href="#">Поиск попутчиков</a></li>
+							<li><a href="#">грузоперевозки</a></li>
+							<li><a href="#">Аренда транспорта</a></li>
+							<li><a href="#">Аренда жилья</a></li>
+							<li><a href="#">о сервисе</a></li>
+							<li><a href="#">добавить объявление</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+                        <p class="bread_crumbs"><a href="#">Главная</a> / <span>Добавить аренду жилья</span></p>
+                            <h1>Добавить аренду жилья</h1>
+                            <div class="add_accom">
+								<h3>Что вы сдаете в аренду?</h3>
+								<form action="#">
+									<div class="add_accom_button">
+										<button class="active">Квартира</button>
+										<button>Дом</button>
+										<button>Хостел</button>
+										<button>Отель</button>
+									</div>
+									<div class="add_accom_forms">
+										<p>Сроки сдачи:</p>
+										<input type="radio" name="data_accom" value="by_the_day" id="check1" checked>
+										<label for="check1">Посуточно</label>
+										<input type="radio" name="data_accom" value="long_term" id="check2">
+										<label for="check2">Длительные срок</label>
+										<div class="clear"></div>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="input">
+													<input type="text" placeholder="Город">
+												<input type="text" placeholder="Кол-во комнат">
+												<input type="text" placeholder="Площадь (м2)">
+												</div>
+												
+											</div>
+											<div class="col-md-6">
+												<div class="input">
+													<input type="text" placeholder="Цена за сутки (грн.)">
+												<input type="text" placeholder="Кол-во спальных мест">
+												<input type="text" placeholder="Этаж">
+												</div>
+												
+											</div>
+											
+										</div>
+
+										<input class="input_one" type="text" placeholder="Адрес квартиры">
+										<p>Дополнительные удобства</p>
+										<div class="clear"></div>
+										<div class="row checkboxes">
+											<div class="col-md-4" >
+												<ul>
+													<li><input type="checkbox" name="wifi" id="" checked><label for="wifi">Wi-Fi</label></li>
+													<li><input type="checkbox" name="shower" id=""><label for="shower">Душевая кабина</label></li>
+													<li><input type="checkbox" name="hairdryer" id=""><label for="hairdryer">Фен</label></li>
+													<li><input type="checkbox" name="iron" id=""><label for="iron">Утюг</label></li>
+													<li><input type="checkbox" name="loggia" id=""><label for="loggia">Лоджия</label></li>
+												</ul>
+												
+												
+												
+												
+												
+											</div>
+											<div class="col-md-4">
+												<ul class="marg">
+													<li><input type="checkbox" name="parking" id=""><label for="parking">Бесплатная парковка</label></li>
+													<li><input type="checkbox" name="cable" id=""><label for="cable">Кабельное ТВ</label></li>
+													<li><input type="checkbox" name="kettle" id=""><label for="kettle">Электрочайник</label></li>
+													<li><input type="checkbox" name="jacuzzi" id=""><label for="jacuzzi">Джакузи</label></li>
+													<li><input type="checkbox" name="microwave" id=""><label for="microwave">Микроволновая печь</label></li>
+												</ul>
+													
+													
+													
+													
+													
+											</div>
+											<div class="col-md-4 ">
+												<ul class="marg">
+													<li><input type="checkbox" name="washer" id=""><label for="washer">Стиральная машина</label></li>
+													<li><input type="checkbox" name="dishwasher" id=""><label for="dishwasher">Посудомоечная машина</label></li>
+													<li><input type="checkbox" name="tv" id=""><label for="tv">Телевизор</label></li>
+													<li><input type="checkbox" name="armored_door" id=""><label for="armored_door">Бронедверь</label></li>
+													<li><input type="checkbox" name="electric_stove" id=""><label for="electric_stove">Электрическая плита</label></li>
+												</ul>
+													
+													
+													
+													
+													
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<input class="input_one" type="text" placeholder="Мой email">
+											</div>
+											<div class="col-md-6">
+													<input class="input_one" type="text" placeholder="Мой телефон">
+											</div>
+										</div>
+										<textarea class="testarea_one" name="" id="" placeholder="Комментарий"></textarea>
+										<p>Фотo:</p>
+										<div class="file">
+												<button class="file_btn">Выбрать файл...</button>
+												<p>Файл не выбран</p>
+										</div>
+									
+										<div class="clear"></div>
+										<button class="accom">Опубликовать</button>
+									</div>
+								</form>
+								
+								
+                            </div>
+
+
+                   
+                        
+					</div>
+					<div class="col-md-offset-1 col-md-3 col-md-offset-1">
+						<div class="side_bar_apartments">
+								<p>Новые квартиры</p>
+								<div class="travel">
+									<div class="ap">
+										<img src="image/room4.png" alt="">
+										<p class="bus_title">Киев</p>
+										<h2 class="bus_pas">2-комн. квартира</h2>
+										<p class="price">450 ₴ / сутки</p>
+									</div>
+									<div class="ap">
+											<img src="image/room5.png" alt="">
+											<p class="bus_title">Хмельницкий</p>
+											<h2 class="bus_pas">3-комн. квартира</h2>
+											<p class="price">650 ₴ / сутки</p>
+										</div>
+										<div class="ap">
+												<img src="image/room6.png" alt="">
+												<p class="bus_title">Черновцы</p>
+												<h2 class="bus_pas">1-комн. квартира</h2>
+												<p class="price">300 ₴ / сутки</p>
+										</div>
+										<a href="">Смотреть все</a>
+										<div class="popular_hotels">
+												<p>Популярные отели</p>
+												<div class="ap one">
+													<h2>Отель Премьер Палас</h2>
+													<p>Киев, Украина</p>
+													<p class="price">от 7000 &#8372;/сутки</p>
+												</div>
+												<div class="ap">
+													<h2>Гостинаца Крещатик</h2>
+													<p>Киев, Украина</p>
+													<p class="price">от 3000 &#8372;/сутки</p>
+												</div>
+													<div class="ap">
+														<h2>PANORAMA Lviv Hotel</h2>
+														<p>Львов, Украина</p>
+														<p class="price">от 1400 &#8372;/сутки</p>
+													</div>
+													<a href="">Смотреть все</a>	
+											</div>
+										<div id="banner2">
+												<img src="image/Rectangle 10.png" alt="">
+											</div>
+	
+								</div>
+
+							
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+			<ul>
+				<li><a href="#">Поиск попутчиков</a></li>
+				<li><a href="#">грузоперевозки</a></li>
+				<li><a href="#">Аренда транспорта</a></li>
+				<li><a href="#">Аренда жилья</a></li>
+				<li><a href="#">о сервисе</a></li>
+				<li><a href="#">добавить объявление</a></li>
+			</ul>
+			
+			</div>
+			<p>©2016 Ururu - все для комфортной поездки. Все права защищены.</p>
+		</footer>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

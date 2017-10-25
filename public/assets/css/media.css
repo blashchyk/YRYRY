@@ -1,0 +1,1781 @@
+/* Large desktops and laptops */
+    @media (min-width: 1200px) and (max-width: 1280px){
+        .big{
+            width: 484px;
+        }
+        .right{
+            left: 464px;
+        }
+    }
+    
+    /* Portrait tablets and medium desktops */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .category .section .triug {
+            width: 40px;
+            height: 20px;
+            position: relative;
+            top: -19px;
+            left: 130px;
+        }
+        div.logo img{
+            max-width: 100%;
+            height: auto;
+        }
+        div.logo p{
+            font-size: 13px;
+        }
+        div.banner img{
+            margin-left: 5px;
+        }
+        .conteiner_slider{
+            margin-top: 0px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        .conteiner_slider ol{
+            margin-left: 50px;
+        }
+        .search_travelers p{
+            margin-right: 4px;
+        }
+        .search_travel input{
+            width: 29.6%;
+        }
+        .search_trip .choose, .search_travelers .choose{
+            margin-left: 2px;
+        }
+        .about_us .section img{
+            margin: 12px 12px 140px 12px;
+        }
+        .bus_rental .btn_bus_search input{
+            width: 73%;
+        }
+        .bus_rental .bus_price input{
+            width: 34%;
+        }
+        .weight input, .bulk input{
+            width: 29%;
+        }
+        .side_bar_apartments p{
+            font-size: 19px;
+        }
+        .travel .ap .bus_title{
+            font-size: 15px;
+        }
+        .property .number_rooms label{
+            margin-right: 2px;
+        }
+        .foto_rooms{
+            margin-left: -5px;
+        }
+        .price_rooms div:first-child input{
+            width: 23%;
+        }
+        .price_rooms div input{
+            padding: 0 12px;
+            font-size: 12px;
+        }
+        .new_bus .bus .text_bus h4{
+            font-size: 13px;
+        }
+        button.register_btn{
+            max-width: 85%;
+        }
+        .agreement{
+            margin-left: 29px;
+        }
+        .user{
+            margin-left: -10px;
+        }
+        .user_name + p{
+            font-size: 11px;
+        }
+        .avatar{
+            height: 45px;
+        }
+        .trip .seats_table{
+            margin-left: -51px;
+            margin-top: 10px;
+        }
+        .trip .many_table{
+            margin-left: -50px;
+            margin-top: 10px;
+        }
+        .trip .car_table{
+            margin-left: -47px;
+        }
+        .trip .text_table{
+            margin-left: -79px;
+            padding-right: 20px;
+        }
+        .trip .row h4{
+            font-size: 13px;
+        }
+        .ford{
+            padding: 20px 0px 25px 5px;
+        }
+        .search_user p{
+            font-size: 14px;
+        }
+        .price p{
+            margin-left: -26px;
+        }
+        .search_user h2{
+            font-size: 16px;
+        }
+        .search_user h2{
+            font-size: 15px;
+        }
+        .drive .driver_dr label{
+            margin-left: 7px;
+        }
+        .search_travelers label{
+            margin-right: 4px;
+            font-size: 13px;
+        }
+        .search_travelers label input{
+            margin-right: 0px;
+        }
+        .popular_travelers p{
+            margin-left: 25px;
+        }
+        .popular_travelers h3{
+            font-size: 13px;
+        }
+        .big{
+            width: 106%;
+            height: auto;
+        }
+        .right{
+            left: 398px;
+        }
+        
+        
+    }
+    
+    /* Portrait tablets and small desktops */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .container {
+            width: inherit;
+          }
+          .category .section .triug {
+            width: 40px;
+            height: 20px;
+            position: relative;
+            top: -19px;
+            left: 95px;
+        }
+         
+        .logo p{
+            font-size: 9px;
+        }
+        .avatar {
+            float: left;
+            margin: 0px 0px 0px 0px;
+            width: 40px;
+            height: 40px;
+        }
+        .forma_1 ul li{
+            padding: 5px 10px;
+        }
+        .forma_1 ul{
+            margin-top: -7px;
+        }
+        .nav_menu ul li{
+            margin-top: 10px;
+        }
+        .nav_menu ul li a{
+            font-size: 13px;
+        }
+       
+        .search_travelers p, .search_travelers label input, .search_travelers label{
+            margin-right: 2px;
+            font-size: 10px;
+        }
+        .search_trip .choose, .search_travelers .choose, input.marg{
+            margin-left: 1px;
+        }
+        .search_travel input{
+            width: 29.1%;
+            height: 20px;
+        }
+        .user_title{
+            margin-right: 0px;
+            overflow: hidden;
+        }
+        .user_title p{
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .user_title .pop_data{
+            float: right;
+            margin-top: 0;
+        }
+        .user_title h3{
+            margin-top: 10px;
+        }
+        .places{
+            padding: 40px 3px;
+        }
+        footer{
+            height: 80px;
+        }
+        footer ul{
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        footer ul li {           
+            margin-left: 0px;
+            padding-left: 10px;
+            width: 20%;
+        }
+        .banner img{
+            width: 95%;
+        }
+        .home_slider h1{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-top: 5px;
+        }
+        .home_slider p{
+            font-size: 13px;
+        }
+        .conteiner_slider{
+            margin-top: 10px;
+            height: 205px;
+        }
+        .h2, h2 {
+            font-size: 20px;
+        }
+        .conteiner_slider ol {
+            margin-left: 40px;
+        }
+        .conteiner_slider ol li {
+            margin-bottom: 5px;
+            font-size: 12px;
+            font-weight: 400;
+            color: #626a71;
+        }
+        .home_slider{
+            height: 385px;
+        }
+        .abs table thead tr td {
+            padding: 5px 10px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 11px;
+        }
+        .abs table tbody tr td img {
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            width: 45px;
+            height: 45px;
+        }
+        .abs table tbody tr td {
+            padding: 2px 0px;
+            padding-left: 0px;
+            font-size: 11px;
+        }
+        .abs .bold{
+            font-size: 12px;
+            padding-left: 0px;
+        }
+        .abs a{
+            font-size: 13px;
+        }
+        .category{
+            padding-top: 2px;
+        }
+        .category h2, .about_us h2{
+            font-size: 30px;
+        }
+        .category .section h3{
+            font-size: 18px;
+        }
+        .category .section p{
+            font-size: 12px;
+            margin: 0px 10px 5px 15px;
+            line-height: 1.4;
+        }
+        .category .section button{
+            margin: 5px 0px 0px 8px;
+            height: 30px;
+            font-size: 13px;
+        }
+        .category .section{
+            padding-bottom: 20px;
+        }
+        .category{
+            height: 1255px;
+        }
+        .about_us{
+            padding-top: 5px;
+        }
+        .about_us .section img{
+            max-width: 100%;
+            height: auto;
+        }
+        .about_us .section h3{
+            font-size: 15px;
+        }
+        .about_us .section p{
+            font-size: 10px;
+        }
+        .age input{
+            height: 30px;
+        }
+        .search_trip .choose, .search_travelers .choose{
+            height: 30px;
+        }
+        .apartments h2, .travel h2{
+            font-size: 14px;
+        }
+        .side_bar_apartments p{
+            font-size: 18px;
+        }
+        .apartments p, .travel p{
+            font-size: 12px;
+        }
+        .apartments img, .travel img{
+            width: 45px;
+            height: 45px;
+            margin-right: 5px;
+        }
+        .apartments h2, .travel h2{
+            font-size: 15px;
+        }
+        .popular_hotels p, .popular_routes p{
+            font-size: 18px;
+        }
+        .popular_hotels div h2, .popular_routes div h2{
+            font-size: 16px;
+        }
+        .popular_hotels .price, .popular_routes .price{
+            font-size: 14px;
+            margin-top: 0px;
+        }
+        header{
+            margin: 5px 0;
+        }
+        .nav_menu{
+            height: 60px;
+        }
+        .h1, h1 {
+            font-size: 32px;
+        }
+        .sorting p {
+            float: left;
+            margin-right: 10px;
+            font-weight: bold;
+            margin-top: 0px;
+        }
+        .sorting div:first-child select {
+            width: 115px;
+            height: 20px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+        }
+        .sorting div:last-child select {
+            width: 32px;
+            height: 20px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            float: left;
+            margin-right: 5px;
+        }
+        .search_user .ava {
+            width: 45px;
+            height: 45px;
+        }
+        .user_title{
+            overflow: hidden;
+        }
+        .user_title p{
+            
+                float: left;
+                margin-top: 10px;
+                margin-right: 30px;
+            
+        }
+        .search_user p{
+            float: left;
+            font-size: 14px;
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+        .ford{
+            float: right;
+        }
+        .search_user p.data{
+            float: right;
+            margin-top: 5px;
+        }
+        .search_user h2 {
+            color: #3f454b;
+            font-size: 15px;
+            font-weight: 500;
+            margin-left: 1px;
+            margin-top: 13px;
+        }
+        .ford, .price{
+            padding: 5px 0px 0px 10px;
+        }
+        .search_user .places{
+            float: right;
+            padding: 15px 0;
+        }
+        .search_categories h2{
+            font-size: 12px;
+        }
+        .input input, .input_one, .input2 input, .search_travel input{
+            width: 29.6%;
+            height: 30px;
+            margin-bottom: 9px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 8px;
+            font-size: 10px;
+        }
+        .search_categories .search_input select{
+            width: 84%;
+            margin-left: 20px;
+            height: 30px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            font-size: 9px;
+        }
+        footer ul li a {
+            font-size: 12px;
+        }
+        #banner2 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .drive p{
+            font-size: 11px;
+        }
+        .bus_rental .bus_price input {
+            width: 94%;  
+        } 
+        .weight input {
+            width: 32%;
+        }
+        .foto_rooms {
+            margin-left: 13px;
+            margin-bottom: 10px;
+        }
+        .price_rooms div:first-child input {
+            width: 46%;
+            height: 40px;
+        }
+        .btn_rooms {
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+        .age input {
+            width: 25%;
+            padding: 0px 5px;
+        }
+        .search_travelers label {
+            margin-right: -2px;
+        }
+        .agreement {
+            margin-left: 30px;
+        }
+        button.register_btn {
+            width: 81%;
+        }
+        .input input{
+            width: 100%;
+        }
+        .alert_message button {
+            margin-top: 45px;
+            float: right;
+            margin-left: -1px;
+        }
+        .input_one{
+            width: 100%;
+        }
+        .big {
+            width: 422px;
+            height: 300px;
+        }
+        .right {
+            top: 125px;
+            left: 402px;
+        }
+        .bus_rental input{
+            width: 90%;
+            padding: 12px 10px;
+        }
+        .btn_bus{
+            width: 30px;
+        }
+        .data_rooms div:last-child input{
+            width: 47%;
+        }
+        .price_rooms div:last-child input{
+            width: 47%;
+        }
+        .search_travel input{
+            width: 28.6%;
+        }
+        
+    }
+    @media(min-width: 800px) and (max-width: 979px){
+        .big{
+            width: 345px;
+            height: 230px;
+        }
+        .right {
+            top: 90px;
+            left: 325px;
+        }
+        .left{
+            top: 90px;
+        }
+        .smal_images img{
+            width: 82px;
+            height: 77px;
+        }
+        .b-popup .b-popup-content{
+            width: 100%;
+        }
+    }
+    @media(min-width: 768px) and (max-width:799px){
+        .big{
+            width: 329px;
+            height: 235px;
+        }
+        .right {
+            top: 95px;
+            left: 309px;
+        }
+        .left{
+            top: 95px;
+        }
+        .smal_images img{
+            width: 77px;
+            height: 72px;
+        }
+        .b-popup .b-popup-content{
+            width: 100%;
+        }
+        .detals_bus .description button{
+            font-size: 17px;
+        }
+    }
+    @media (min-width: 480px) and (max-width: 767px) {
+        body{
+            font-size: 10px;
+        }
+        .btn-group{
+            display: block;
+        }
+        .nav_menu ul{
+            display: none;
+        }
+        .category .section .triug {
+            width: 40px;
+            height: 20px;
+            position: relative;
+            top: -19px;
+            left: 45px;
+        }
+        .banner img{
+            max-width: 90%;
+            height: auto;
+        }
+        .entry{
+            margin-left: -50px;
+        }
+        .user {
+            margin-left: -60px;
+        }
+        .logo p{
+            font-size: 9px;
+        }
+        .avatar{
+            width: 35px;
+            height: 35px;
+            display: none;
+        }
+        .user_name {
+            font-size: 11px;
+            margin-left: 4px;
+        }
+        .user_name + p{
+            font-size: 10px;
+            margin-bottom: 0;
+            margin-left: 4px;
+        }
+        .forma_1 ul li{
+            padding: 0px 9px;
+        }
+        .dropdown-menu{
+            left: -117px;
+            top: 25px;
+        }
+        header {
+            margin: 0px 0;
+        }
+        .nav_menu ul li{
+            margin-top: 0;
+        }
+        .nav_menu ul li a{
+            font-size: 13px;
+        }
+        .nav_menu{
+            height: 35px;
+            margin-top: -20px;
+        }
+        .home_slider h1{
+            font-size: 35px;
+            margin-top: 25px;
+        }
+        .home_slider p{
+            font-size: 9px;
+        }
+        .conteiner_slider{
+            margin-top: 0;
+        }
+        .h2, h2 {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .conteiner_slider ol {
+            margin-left: 30px;
+        }
+        .conteiner_slider ol li{
+            font-size: 8px;
+        }
+        .conteiner_slider button{
+            font-size: 11px;
+            height: 20px;
+            width: 155px;
+        }
+        .conteiner_slider{
+            height: 155px;
+        }
+        .home_slider{
+            height: 360px;
+        }
+        .entry button {
+            width: 100px;
+            height: 20px;
+            margin-bottom: 0px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 5px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 12px;
+        }
+        .abs table thead tr td{
+            padding: 0 0px;
+            font-size: 8px;
+            text-align: center;
+        }
+        .abs table tbody tr td img {
+            margin-left: 0px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 35px;
+            height: 35px;
+        }
+        .abs .bold, .abs table tbody tr td, .abs a{
+            font-size: 7px;
+        }
+        .abs table{
+            margin-bottom: 15px;
+        }
+        .category h2, .about_us h2{
+            font-size: 22px;
+        }
+        .category{
+            padding-top: 5px;
+            height: 865px;
+        }
+        .category .section h3{
+            font-size: 11px;
+        }
+        .category .section p {
+            margin: 0px 5px 5px 5px;
+            text-align: center;
+            font-size: 8px;
+            font-weight: 400;
+            color: #626a71;
+            line-height: 1.4;
+        }
+        .category .section button {
+            display: block;
+            margin: 5px 0px 0px 10px;
+            width: 81%;
+            height: 25px;
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 9px;
+            background-color: #43515e;
+        }
+        .category .section {
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        .about_us{
+            padding-top: 5px;
+        }
+        .about_us .section{
+            margin-top: -10px;
+            padding-bottom: 5px;
+        }
+        .about_us .section img {
+            margin: 5px 5px 105px 5px;
+            float: left;
+            width: 30px;
+            height: 20px;
+        }
+        .about_us .section h3 {
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 10px;
+            margin-bottom: -5px;
+        }
+        .about_us .section h6 {
+            font-size: 10px;
+            font-weight: 400;
+            color: #8d9398;
+        }
+        .about_us .section p {
+            font-size: 8px;
+            font-weight: 400;
+            color: #626a71;
+            padding-right: 30px;
+        }
+        h6{
+            margin-bottom: 5px;
+        }
+        footer p {
+            margin-top: 0px;
+            color: #888d95;
+            font-size: 10px;
+        }
+        footer {
+            margin-top: 15px;
+            background-color: #454c59;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+        }
+        footer ul {
+            list-style-type: none;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        footer ul li {
+            float: left;
+            margin-left: 0px;
+            border-left: 2px solid #686e76;
+            padding-left: 15px;
+            
+        }
+        footer ul li a{
+            font-size: 6px;
+        }
+        .h1, h1 {
+            font-size: 22px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .search_travelers{
+            padding: 10px 20px;
+        }
+        .search_travelers p{
+            margin-right: 5px;
+            font-size: 10px;
+        }
+        .search_travelers label{
+            margin-right: 0px;
+            font-size: 8px;
+        }
+        .search_travelers label input {
+            margin-right: 3px;
+        }
+        .age input {
+            width: 26%;
+            height: 25px;
+            padding: 5px 0px 5px 0px;
+            border: 1px solid #bfc3c8;
+            border-radius: 8px;
+            margin-top: 3px;
+        }
+        .search_travel {
+            margin-top: 5px;
+        }
+        .popular_travelers img {
+            width: 35px;
+            height: 35px;
+            float: left;
+            margin-right: 0px;
+        }
+        .search_travel input {
+            width: 28.9%;
+            height: 25px;
+            margin-bottom: 9px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 10px;
+        }
+        .search_trip .choose, .search_travelers .choose {
+            background-color: #9aa3ab;
+            width: 25px;
+            height: 25px;
+            border: 1px solid #9aa3ab;
+            border-radius: 6px;
+            margin-left: 0px;
+        }
+        .form_message button, .settings button, .alert_message button, .button_btn button, .add_accom_button button, .accom, .search, .search_passenger, .register_btn {
+            width: 140px;
+            height: 25px;
+            background-color: #d47f32;
+            color: #ffffff;
+            font-size: 12px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .popular_travelers {
+            margin-top: 10px;
+        }
+        .travel img {
+            float: left;
+            margin-right: 10px;
+            width: 40px;
+            height: ;
+        }
+        
+        .user_title {
+            margin-right: -13px;
+        }
+        .side_bar_apartments p {
+            font-size: 14px;
+            font-weight: 300;
+            color: #2a2a2a;
+        }
+        .popular_travelers p{
+            font-size: 10px;
+        }
+        .ap .people {
+            font-size: 14px;
+            color: #585e64;
+            font-weight: 400;
+        }
+        .popular_travelers h3{
+            font-size: 12px;
+        }
+        .apartments h2, .travel h2 {
+            font-size: 12px;
+            font-weight: 500;
+            color: #3f454b;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        .side_bar_apartments, .popular_routes {
+            margin-top: 0px;
+        }
+        .popular_hotels div h2, .popular_routes div h2{
+            font-size: 14px;
+            margin-bottom: 0px;
+            margin-top: 19px;
+        }
+        .popular_hotels .price, .popular_routes .price{
+            font-size: 14px;
+        }
+        #banner2{
+            display: none;
+        }
+        .bus_rental input {
+            width: 110%;
+            height: 25px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 10px;
+        }
+        .btn_bus {
+            width: 25px;
+            height: 25px;
+            border-radius: 6px;
+            background-color: #9aa3ab;
+            border: none;
+            float: right;
+        }
+        .bus_rental .btn_bus_search input {
+            width: 75%;
+            float: left;
+        }
+        .bus_rental input {
+            width: 125%;
+        }
+        .bus_rental .bus_price input {
+            width: 32%;
+        }
+        .weight input, .bulk input{
+            width: 28%;
+        }
+        .search_bus_section button{
+            width: 140px;
+            height: 25px;
+            font-size: 12px;
+        }
+        .search_bus_section{
+            margin-top: -3px;
+        }
+        .new_bus .bus .img img {
+            width: 70px;
+            height: 70px;
+        }
+        .bus_rental {
+            padding: 15px 0;
+            background-color: #f2f5f8;
+            margin-top: 15px;
+        }
+        .property .number_rooms label {
+            margin-right: 5px;
+            font-weight: 400;
+            color: #585e64;
+        }
+        .property .number_rooms input, .property .foto_rooms input {
+            margin-right: 1px;
+        }
+        .property {
+            margin-top: 10px;
+            padding: 5px 15px;
+            background-color: #f2f5f8;
+        }
+        .data_rooms div:first-child input {
+            width: 100%;
+            height: 25px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 8px;
+            
+        }
+        .data_rooms div:last-child input {
+            width: 48%;
+            height: 25px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 8px;
+        }
+        .price_rooms div:first-child input {
+            width: 24.1%;
+            height: 25px;
+        }
+        .price_rooms div input {
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 8px;
+        }
+        .price_rooms div:last-child input {
+            height: 25px;
+        }
+        .btn_rooms{
+            margin-top: 5px;
+        }
+        .btn_rooms{
+            width: 140px;
+            height: 25px;
+            font-size: 13px;
+        }
+        .service{
+            margin-top: 0;
+        }
+        .input input{
+            height: 25px;
+            padding: 0 8px;
+        }
+        .add_accom_button button{
+            width: 86px;
+        }
+        h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .alert_message h3{
+            font-size: 13px;
+        }
+        .alert_message p {
+            font-weight: 400;
+            color: #585e64;
+            font-size: 12px;
+        }
+        .banner2 img{
+            max-width: 100%;
+            height: auto;
+        }
+        .new_bus .bus .text_bus .price {
+            color: #72c601;
+            font-size: 12px;
+            font-weight: bold;
+            margin: 0px 0px 0px 0px;
+            padding: 0;
+        }
+        .new_bus .bus .text_bus .places {
+            color: #000000;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            margin-top: 5px;
+            font-size: 9px;
+        }
+        .new_bus .bus .text_bus h4 {
+            color: #3f454b;
+            font-weight: 700;
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+        }
+        .btn{
+            font-size: 12px;
+        }
+        .trip .row img {
+            float: left;
+            margin-right: 10px;
+            width: 35px;
+            height: 35px;
+        }
+        .trip .row h4 {
+            margin-top: -5px;
+            font-size: 10px;
+            font-weight: 500;
+            color: #5a5e64;
+        }
+        .trip .row h3 {
+            margin-top: -4px;
+            margin-bottom: 2px;
+            font-size: 9px;
+            font-weight: 500;
+            color: #43474c;
+        }
+        .trip .car_table {
+            margin-left: -35px;
+            text-align: left;
+            color: #5a5e64;
+            font-weight: 400;
+            padding: 15px 0px 6px 0px;
+            /* border: 2px solid #000000; */
+            font-size: 12px;
+        }
+        .trip .text_table {
+            color: #5a5e64;
+            font-weight: 400;
+            margin-left: -50px;
+            font-size: 10px;
+            margin-right: 28px;
+        }
+        .trip .many_table {
+            color: #5a5e64;
+            font-size: 13px;
+            font-weight: 700;
+            margin-left: -51px;
+            margin-right: 28px;
+        }
+        
+        .trip .row p img {
+            float: left;
+            margin-right: 0px;
+            width: 20px;
+            height: 20px;
+        }
+        .nav_menu .dropdown-menu.main{
+            top: 32px;
+            left: -17px;
+            background-color: #72c601;
+            width: 250px;
+        }
+        .dropdown-menu.main li{
+            float: none;
+        }
+        .travel .ap .bus_title {     
+            font-size: 12px !important;     
+        }
+        .property .foto_rooms label{
+            margin-left: -28px;
+            max-width: 152%;
+        }
+        /* .input_one{
+            height: 25px;
+        } */
+        .testarea_one{
+            height: 75px;
+        }
+        /* .side_bar{
+            display: none;
+        } */
+        .abs table tbody tr td{
+            padding-left: 6px;
+        }
+        .travel .ap{
+            margin-bottom: 12px;
+        }
+        
+    }
+
+ 
+    @media (min-width: 270px) and (max-width: 479px){
+         .category .section .triug {
+            width: 30px;
+            height: 15px;
+            position: relative;
+            top: -17px;
+            left: 28px;
+        }
+        .logo{
+            margin-top: 0;
+        }
+        .entry{
+            margin-left: -100px;
+        }
+        .entry button{
+            height: 25px;
+        }
+        .avatar, .banner img, .logo p{
+            display: none;
+        }
+        .forma_1 ul li{
+            padding: 0 5px;
+        }
+        .user {
+            margin-left: -80px;
+        }
+        .user_name + p{
+            margin-bottom: 0;
+        }
+        .banner img{
+            width: 87%;
+        }
+        .nav_menu{
+            margin-top: -10px;
+            height: 34px;
+        }
+        
+        .dropdown-menu{
+            top: 25px;
+            left: -158px;
+        }
+        .glyphicon-th-list{
+            display: block;
+
+        }
+        
+        .nav_menu ul{
+            display: none;
+        }
+        .btn-group{
+            display: block;
+        }
+        .nav_menu .dropdown-menu.main{
+            top: 32px;
+            left: -17px;
+            background-color: #72c601;
+            width: 250px;
+        }
+        .dropdown-menu.main li{
+            float: none;
+        }
+        .home_slider h1 {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .home_slider p {
+            font-size: 10px;
+        }
+        .h2, h2 {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+        .conteiner_slider ol {
+            margin-left: 16px;
+        }
+        .conteiner_slider ol li {
+            font-size: 5px;
+            margin-bottom: 0px;
+        }
+        .conteiner_slider button {
+            font-size: 11px;
+            height: 20px;
+            width: 110px;
+        }
+        .h2, h2 {
+            font-size: 7px;
+            margin-top: 0px;
+        }
+        .conteiner_slider {
+            height: 90px;
+            margin-top: 5px;
+        }
+        .home_slider {
+            height: 220px;
+        }
+        .main_hide{
+            display: none;
+        }
+        .abs table thead tr td{
+            font-size: 8px;
+        }
+        .abs table tbody tr td img {
+            margin-left: -10px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            margin-right: 0px;
+            width: 30px;
+            height: 30px;
+        }
+        .abs .bold, .abs table tbody tr td, .abs a {
+            font-size: 8px;
+        }
+        .category h2, .about_us h2 {
+            font-size: 16px;
+        }
+        .category .section h3 {
+            font-size: 8px;
+            margin-bottom: 4px;
+        }
+        .category .section p{
+            font-size: 6px;
+            margin: 0 3px 5px 3px;
+        }
+        .category .section button {
+            display: block;
+            margin: 5px 0px 0px 5px;
+            width: 88%;
+            height: 15px;
+            border: none;
+            border-radius: 8px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 9px;
+            background-color: #43515e;
+        }
+        .category {
+            padding-top: 5px;
+            height: 660px;
+        }
+        .category .section{
+            padding-bottom: 8px;
+            margin-bottom: 5px;
+
+
+        }
+        .about_us .section img {
+            margin: 5px 5px 105px 5px;
+            float: left;
+            width: 20px;
+            height: 15px;
+        }
+        .about_us .section h3 {
+            font-size: 9px;
+            font-weight: bold;
+            padding-top: 5px;
+            margin-bottom: -5px;
+        }
+        .about_us .section h6{
+            font-size: 7px;
+        }
+        .about_us .section p{
+            font-size: 6px;
+        }
+        .about_us .section p{
+            padding-right: 0;
+        }
+        .about_us .section{
+            padding-bottom: 8px;
+        }
+    
+        footer, #banner2 img{
+            display: none;
+        }
+        .h1, h1{
+            font-size: 16px;
+        }
+        .search_travelers p {
+            margin-right: 31px;
+            font-size: 12px;
+        }
+        .search_travel input {
+            width: 25.5%;
+            height: 25px;
+            margin-bottom: 9px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 10px;
+        }
+        .age input{
+            margin-top: 10px;
+        }
+        .search_passenger, .search_bus_section button, .btn_rooms{
+            width: 160px;
+            height: 25px;
+        }
+        .search_travelers .choose {
+            background-color: #9aa3ab;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #9aa3ab;
+            border-radius: 6px;
+            margin-left: 8px;
+        }
+        .search_travelers label{
+            margin-right: 0;
+            margin-bottom: 0;
+            font-size: 13px;
+        }
+        .bus_rental {
+            padding: 10px 0;
+            background-color: #f2f5f8;
+            margin-top: 0px;
+        }
+        .new_bus .bus .img{
+            display: none;
+        }
+        h3{
+            font-size: 12px;
+        }
+        .new_bus a{
+            margin-bottom: -18px;
+        }
+        .popular_travelers img {
+            display: none;
+            width: 35px;
+            height: 35px;
+            float: left;
+            margin-right: 8px;
+        }
+        .popular_travelers p {
+            font-size: 7px;
+        }
+        .popular_travelers h3 {
+            font-size: 8px;
+        }
+        .popular_travelers .row .places img {
+            width: 12px;
+            height: 12px;
+            line-height: 50%;
+            margin-right: 5px;
+        }
+        .side_bar_apartments p {
+            font-size: 13px;
+            font-weight: 300;
+            color: #2a2a2a;
+        }
+        .bus_rental .btn_bus_search input {
+            width: 50%;
+            float: left;
+            padding: 0;
+            height: 25px;
+        }
+        .bus_rental .bus_price input {
+            width: 100%;
+        }
+        .weight input, .bulk input {
+            width: 100%;
+        }
+        .new_bus .bus .img img {
+            width: 80px;
+            height: 80px;
+        }
+        .new_bus .bus .text_bus h4 {
+            color: #3f454b;
+            font-weight: 700;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+        .new_bus .bus .text_bus .price{
+            font-size: 12px;
+        }
+        .bus_rental input{
+            height: 25px;
+            font-size: 10px;
+            padding: 5px 6px;
+            width: 130%;
+        }
+        .new_bus .bus .text_bus .places {
+            color: #000000;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            margin-top: 0px;
+            font-size: 10px;
+        }
+        .add_accom_button button, .add_accom_button button{
+            width: 75px;
+        }
+        p {
+            margin: 0 0 0px;
+        }
+        p.text{
+            font-size: 10px;
+        }
+        .travel .ap .bus_title {
+            color: #3f454b;
+            font-size: 8px;
+            font-weight: 700;
+        }
+        .popular_hotels div h2, .popular_routes div h2 {
+            font-size: 9px;
+        }
+        .foto_rooms {
+            margin-left: -45px;
+            margin-bottom: 0px;
+        }
+        .data_rooms div:last-child input {
+            width: 100%;
+            height: 25px;
+            border: 1px solid #bfc3c8;
+            border-radius: 6px;
+            padding: 0px 8px;
+        }
+        .price_rooms div:first-child input {
+            width: 40%;
+            height: 25px;
+            padding: 0 5px;
+        }
+        .price_rooms div:last-child input {
+            width: 100%;
+        }
+        .banner2 img{
+            max-width: 100%;
+            height: auto;
+        }
+        .dop_info table tr td label {
+            font-weight: 300;
+            margin-right: 0px;
+            font-size: 8px;
+        }
+        .dop_info table tr td:first-child {
+            float: right;
+            margin-right: 10px;
+            color: #2a2a2a;
+            font-weight: bold;
+            float: left;
+            font-size: 9px;
+        }
+        .travel img {
+            float: left;
+            margin-right: 10px;
+            width: 35px;
+            display: none;
+            
+        }
+        .popular_hotels, .popular_routes{
+            margin-top: 0px;
+        }
+        .btn_bus{
+            width: 25px;
+            height: 25px;
+
+        }
+        .ap .people {
+            font-size: 10px;
+            color: #585e64;
+            font-weight: 400;
+        }
+        .apartments h2, .travel h2 {
+            font-size: 11px;
+            font-weight: 500;
+            color: #3f454b;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+        .add_accom_forms label {
+            font-weight: 400;
+            font-size: 8px;
+        }
+        .checkboxes input {
+            margin-right: 0px;
+        }
+        .property .foto_rooms label{
+            margin-left: 15px;
+        }
+        .data_rooms div:first-child input, .price_rooms div:last-child input:first-child, .price_rooms div:last-child input{
+            height: 25px;
+        }
+        .user_title {
+            margin-right: 50px;
+        }
+        .user_profile .button_btn {
+            margin-left: 0px;
+        }
+        .user_profile div textarea {
+            resize: none;
+            text-align: left;
+            height: 80px;
+            overflow: hidden;
+        }
+        .user_title h1 {
+            float: left;
+            color: #2a2a2a;
+            font-size: 25px;
+            font-weight: 400;
+            margin-top: -5px;
+        }
+      
+        .trip .row img{
+            display: none;
+        }
+        .alert_message h3{
+            font-size: 11px;
+        }
+        .alert_message p{
+            font-size: 9px;
+        }
+        .alert_message button {
+            margin-top: 0px;
+            height: 25px;
+        }
+        .no-btn a, .profile_avatar a {
+            color: #2981d7;
+            text-decoration: underline;
+            margin-right: 10px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .autorization{
+            width: 285px;
+        }
+        .autorization button, .autorization input, .check_in button{
+            width: 270px;
+            height: 25px;
+        }
+        .check_in h2{
+            font-size: 14px;
+        }
+        button.register_btn{
+            margin-left: 5px;
+        }
+        .side_bar_apartments div div{
+            margin-bottom: 10px;
+        }
+        .popular_routes .price{
+            margin-top: -8px;
+        }
+        .dop_info input[type="radio"]{
+            margin: 0 -2px 0;
+        }
+        .add_accom_button{
+            font-size: 10px;
+        }
+        .add_accom .add_accom_button button{
+            width: 100px;
+        }
+        .checkboxes ul.marg{
+            margin-left: 0px;
+        }
+        .user .user_name{
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+       
+        .popular_routes .price{
+            font-size: 14px;
+        }
+        .big {
+            width: 330px;
+            height: 235px;
+        }
+        .right {
+            top: 95px;
+            left: 309px;
+        }
+        .left{
+            top: 95px;
+        }
+        .smal_images{
+            display: none;
+        }
+    }
+    /* Iphone5 */
+    @media (min-width: 319px) and (max-width:320px){
+         .add_accom_forms p{
+            margin-right: 110px;
+        }
+        .search_travel input{
+            width: 24.5%;
+        }
+        .search_travelers p{
+            margin-right: 0px;
+        }
+        .search_travelers label input{
+            margin-right: -1px;
+        }
+        .dop_info table tr td:first-child{
+            margin-right: -95px;
+        }
+        .dop_info input[type="radio"]{
+            margin-top: 15px;
+        }
+        .bus_rental .bus_price input{
+            width: 85%;
+        }
+        .bus_rental input{
+            width: 80%;
+        }
+        .search_bus_section button{
+            width: 115px;
+        }
+        .add_accom_button button, .add_accom_button button{
+            width: 68px;
+            font-size: 9px;
+        }
+        .input input{
+            padding: 10px 5px;
+            font-size: 12px;
+        }
+        .price_rooms div:first-child input{
+            width: 42%;
+        }
+        .personal_data table tr td:nth-child(odd){
+            width: 54%;
+        }
+        .btn.active_btn, .btn.main_btn{
+            width: 172px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .trip{
+            margin-top: 0px;
+        }
+        .trip .row{
+            padding: 15px 0px 10px 30px;
+        }
+        .trip .row img{
+            display: block;
+        }
+        .add_accom h3{
+            font-size: 18px;
+        }
+        .smal_images{
+            display: none;
+        }
+        .big{
+            width: 300px;
+            height: 260px;
+        }
+        .right{
+            top: 100px;
+            left: 280px;
+        }
+        .left{
+            top: 100px;
+        }
+        .b-popup .b-popup-content{
+            width: 100%;
+        }
+        .detals_bus .description button{
+            font-size: 17px;
+        }
+    }
+    /* Iphone6 */
+    @media (min-width: 374px) and (max-width:376px){
+        .dop_info table tr td:first-child{
+            margin-right: -75px;
+        }
+        .dop_info input[type="radio"]{
+            margin: 20px 1px 0;
+        }
+        .dop_info table tr td label{
+            margin-right: 0px;
+        }
+        .bus_rental input{
+            width: 136%;
+            padding: 5px 6px;
+        }
+        .add_accom_button button, .add_accom_button button{
+            width: 86px;
+        }
+        .personal_data table tr td:nth-child(odd){
+            width: 50%;
+        }
+        .trip{
+            margin-top: 0px;
+        }
+        .trip .row{
+            padding: 15px 0px 10px 30px;
+        }
+        .trip .row img{
+            display: block;
+        }
+        .smal_images{
+            display: none;
+        }
+        .big{
+            width: 350px;
+            height: 260px;
+        }
+        .right{
+            top: 100px;
+            left: 330px;
+        }
+        .left{
+            top: 100px;
+        }
+        .b-popup .b-popup-content{
+            width: 100%;
+        }
+    }
+    @media (min-width: 413px) and (max-width:415px){
+        .add_accom_button button, .add_accom_button button{
+            width: 94px;
+            font-size: 13px;
+        }
+        .personal_data table tr td:nth-child(odd){
+            width: 46%;
+        }
+        .btn.main_btn:last-child{
+            margin-top: 5px;
+            margin-left: 3px;
+            width: 170px;
+            cursor: pointer;
+        }
+        .trip{
+            margin-top: 0px;
+        }
+        .trip .row{
+            padding: 15px 0px 10px 30px;
+        }
+        .trip .row img{
+            display: block;
+        }
+        .smal_images{
+            display: none;
+        }
+        .big{
+            width: 390px;
+            height: 270px;
+        }
+        .right{
+            top: 100px;
+            left: 370px;
+        }
+        .left{
+            top: 100px;
+        }
+        .b-popup .b-popup-content{
+            width: 100%;
+        }
+    }
